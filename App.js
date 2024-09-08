@@ -13,7 +13,7 @@ var options = {
 var req = https.request(options, function(res) {
 
   console.log("OPTIONS: " + options);
-  console.log("STS: " + res.statusCode);
+  console.log("STATUSCODE: " + res.statusCode);
   console.log("HEADERS: " + JSON.stringify(res.headers));
   //res.setEncoding('utf8');
 
